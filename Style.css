@@ -5,3 +5,10 @@ body{
     top: 15px;
     overflow: hidden;
 }
+#top{
+    height: 50px;
+    background: #ff9c51;
+    box-shadow: 0 0 5px #ff9c51;
+    -webkit-animation: top_anim 4.5s infinite ;
+    animation: top_anim 4.5s infinite ;
+}
