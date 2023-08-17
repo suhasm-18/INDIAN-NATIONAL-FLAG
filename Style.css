@@ -1,0 +1,7 @@
+body{
+    background-color: #111;
+    position: relative;
+    left: 45%;
+    top: 15px;
+    overflow: hidden;
+}
