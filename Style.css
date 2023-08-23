@@ -34,3 +34,10 @@ body{
     -webkit-animation-delay: .2s;
     animation-delay: .2s;
 }
+@-webkit-keyframes middle_anim
+{
+    0% {width: 0px;}
+    30% {width: 250px;}
+    70% {width:250px;}
+    100% {width: 0px;}
+}
