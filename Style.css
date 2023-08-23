@@ -57,3 +57,12 @@ body{
     -webkit-animation-delay: .2s;
     animation-delay: .2s;
 }
+@-webkit-keyframes img_anim
+{
+    0% {opacity: 0;}
+    30% {opacity: 0;-webkit-transform:rotate(0deg);transform:rotate(0deg);-ms-transform:rotate(0deg);}
+    38% {opacity: 1;}
+    62% {opacity: 1;}
+    70% {opacity: 0;-webkit-transform:rotate(360deg);transform:rotate(360deg);-ms-transform:rotate(360deg);}
+    100% {opacity: 0;}
+}
